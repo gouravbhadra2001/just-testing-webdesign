@@ -1,0 +1,73 @@
+.Join-Us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-center {
+    width: 50%;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.571);
+    box-shadow: 0 0.4rem 1.5rem 0 rgb(138, 63, 92);;
+  }
+  
+  form.join-us-form {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  form.join-us-form div {
+    display: table-row;
+  }
+  
+  form.join-us-form label {
+    color: beige;
+    display: table-cell;
+    padding-right: 1rem;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.5rem;
+  }
+  
+  
+  form.join-us-form input {
+    background-color: rgba(240, 248, 255, 0.736);
+    display: table-cell;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    border: 0.2rem solid #ccc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+  }
+  
+  form.join-us-form input:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+
+@media (max-width: 58rem) {
+
+    .form-center {
+        width: 80%;
+        padding: 2rem;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.571);
+      }
+
+    form.join-us-form label {
+        color: beige;
+        display: table-cell;
+        padding-right: 1rem;
+        text-align: left;
+        vertical-align: middle;
+        font-size: 1.3rem;
+      }
+}
